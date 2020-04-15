@@ -14,4 +14,8 @@ public class Auto {
     double getPrijsPerDag(){
         return prijsPerDag;
     }
+    public String toString(){
+        return type + " met prijs per dag: " + prijsPerDag;
+    }
+
 }

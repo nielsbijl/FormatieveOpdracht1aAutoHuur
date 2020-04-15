@@ -23,5 +23,8 @@ public class Main {
         ah2.setHuurder(k);
         ah2.setAantalDagen(1);
         System.out.println("Tweede autohuur: \n" + ah2.toString());
+
+        System.out.println("Gehuurd: " + a1.toString());
+        System.out.println("Gehuurd: " + a2.toString());
     }
 }
